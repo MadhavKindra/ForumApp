@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.H8Activity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="If interested, please share your CV at shreya.chhabra@flytbase.com\n\n
+Subject:- FlytBase   HR Intern\n\n
+Who can apply:-\n\n
+1. are available for full time (in-office) internship\n
+2. can start the internship between 10-Aug-21 and 20-Aug-21\n
+3. are available for a duration of 3 months\n
+4. have relevant skills and interests\n\n
+Interested Candidates kindly fill the below form:-\n\n
+https://lnkd.in/evxTyqh\n\n
+P.S. We need someone who can join us within 15 Days!"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

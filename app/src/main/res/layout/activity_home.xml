@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.HomeActivity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/home5"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:onClick="h5Clicked"
+        android:text="OLYMPICS UPDATE - Bronze joy after 41 years"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home4" />
+
+    <TextView
+        android:id="@+id/home4"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:onClick="h4Clicked"
+        android:text="Placement Opportunity at BYJUS"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home3" />
+
+    <TextView
+        android:id="@+id/home2"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:onClick="h2Clicked"
+        android:text="Placement oppurtunity at Campk12"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home1" />
+
+    <TextView
+        android:id="@+id/home3"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:onClick="h3Clicked"
+        android:text="MissionEd Internship | All Profile Problem Statement"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home2" />
+
+    <TextView
+        android:id="@+id/home1"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/reg_edittext_style"
+        android:onClick="h1Clicked"
+        android:text="Anti-Holic, All India Aptitude Test"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/home1Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_btn_style"
+        android:onClick="nextBtnClicked"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

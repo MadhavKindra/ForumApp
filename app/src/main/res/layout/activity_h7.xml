@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.H7Activity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="Position- Associate\n\n
+At EY, you will have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we are counting on your unique voice and perspective to help EY become even better too. Join us and build an exceptional experience for yourself, and a better working world for all.\n\n
+1. A Graduate, preferably B.Com/BBA/Economics Graduates (No post-graduation experience required)\n
+2. 0-2 years general business experience with an exposure to international work environment would be an advantage\n
+3. Written and verbal fluency in German (regular interaction required with German counterparts).\n
+4. Previous work exp preferred.\n
+5. Fluency in English, both verbal and written.\n
+6. IT Skills - experience of using MS Office PC based system - Experience with MS Office suite (Excel, Power Point, Word, Outlook etc.) and windows-based PC./n/n
+REGISTRATION LINK-\n\n
+https://careers.ey.com/ey/job/Noida-Associate-UP-201305/696123701/?feedId=337401&amp;utm_source=LinkedInJobPostings&amp;utm_campaign=j2w_linkedin"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

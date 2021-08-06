@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.H4Activity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="Placement at BYJUS\n\n
+Position-Business Development Executive\n\n
+Salary-(10 Lacs Per Annum (5 LPA Fixed + 2 LPA Direct Sales Allowance + 3 LPA Incentives/Variable)\n\n
+Candidates upto age of 27 yrs only applicable to apply\n\n
+Location-PAN India-WFH\n\n
+Exp- 6 months+\n\n
+Job description is in form itself :\n\n\n
+Interested candidates can apply at the below link-\n\n
+https://lnkd.in/gNck8qc"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

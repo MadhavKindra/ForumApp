@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.H6Activity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="WHO CAN APPLY?\n
+Any student\n
+• Who is willing to learn and work under supervision.\n
+• Who wants to help other young kids to achieve mental peace and success.\n
+• And have a basic understanding of the internship they are applying for.\n\n
+We are offering the internships under the following departments :\n
+1. Content Writers\n
+2. HR Interns\n
+3. PR Interns\n
+4. Social Media Interns\n
+5. Graphic Designer\n
+6. Video Editor\n
+7. Operations\n
+8. Promotions\n
+9. Management\n
+10. Content Creator (Digital Course)\n
+11. Creative Team\n
+12. Event Team\n
+13. Technical\n
+14. Others\n
+Stipend: NA (Though you can find all perks of this internship below)
+Interested students are requested to fill the form by August 9th EOD.\n\n
+https://forms.gle/87kbSrES4LsQhxdx7"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

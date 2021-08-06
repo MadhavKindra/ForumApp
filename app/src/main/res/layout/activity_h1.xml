@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.H1Activity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="Greetings everyone!\n\nMissionEd, proudly presents Apti-Holic, a mind-challenging All India Aptitude Test. Let’s uncover your strengths, along with your ability to succeed in specific situations.\n\nGuidelines:\n\nThe event will be in the form of a quiz which consists of multiple-choice questions\nYou can start the test at any time on 7th August 2021\nYou will be given 25 minutes to attempt and mark your answers.\nOnce you start the exam you cannot start over\n\nPerks:\n\nFree of cost registration with certificates and amazing prizes\nPrize money and incentives worth INR 20000 to be given \n\nSo what are you waiting for? Hurry up and 𝐫𝐞𝐠𝐢𝐬𝐭𝐞𝐫 𝐚𝐭 D2C:  https://dare2compete.com/o/gfuXzWo?refId=21071013 \n\nDon’t forget to sign up on the MissionEd Forum platform to receive notifications regarding the event:https://missioned-forum.web.app/ "
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

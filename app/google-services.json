@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957903887614",
+    "project_id": "forum-intern",
+    "storage_bucket": "forum-intern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957903887614:android:2a6e003877b5960825d9af",
+        "android_client_info": {
+          "package_name": "madhav.mycompany.internforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957903887614-fjbq0gf8bg91hcjk1evron6f4pspkpma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOpQbaJqDs2SYGE6dqJvoKbWoFNPkEq9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957903887614-fjbq0gf8bg91hcjk1evron6f4pspkpma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

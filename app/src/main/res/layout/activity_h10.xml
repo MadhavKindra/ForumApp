@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.H10Activity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="PAN INDIA EVENT ALERT!!\n\n
+Greetings from PLC Cornelia!❤️\n\n
+PLC Corenlia, a club under Pink Legal is elevated to announce it's quarterly fest -  ZENITH\n\n
+The fest will feature a multiplicity of various theme based events, which will be both empowering and enlightening. Put on your creativity hats and join us in the change-making process!\n\n
+Participate in the event and get a chance to win cash prizes, gift hampers, coupons, Internship opportunities and much more!\n\n
+A) Reel Making Competiton\n
+B) Quiz Competiton\n
+C) Story Writing Competiton\n
+D) Poetry Writing Competiton\n
+E) Conventional Debate\n\n\n
+For more details &amp; registeration-  https://linktr.ee/plc.cornelia"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

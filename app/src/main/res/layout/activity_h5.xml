@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.H5Activity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="INDIA WON BRONZE MEDAL IN HOCKEY AFTER 41 YEARS\n\n\n
+A 41-year wait finally ended when the Indian men’s hockey team secured an Olympic medal by beating Germany 5-4 in a pulsating encounter in Tokyo on Thursday. Goals from Rupinder Pal Singh, Hardik Singh and Harmanpreet Singh, in addition to a brace from Simranjeet Singh saw India through. It was a topsy-turvy game in which India went 0-1 and then 1-3 down, conceding two goals in as many minutes, before launching a comeback. They went up 5-3 and had to endure some anxious moments, showing determination and defensive resolve to end one of the longest droughts in Indian sport. The Indian penalty corner battery was a constant threat, but they were also quite dangerous in open play, often catching the Germans with swift counter-attacks."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
